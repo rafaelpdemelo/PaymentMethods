@@ -1,0 +1,56 @@
+*{
+    margin: 1px;
+    box-sizing: border-box;
+}
+
+
+
+.metodosPagamento {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 36px 32px;
+    border-radius: 5px;
+    border: 1px solid #29292e;
+      background: linear-gradient(
+        90deg, #202024,#202024);
+  }
+  
+  .metodosPagamento strong{
+      font-family: "Poppins";
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 700;
+      color: #e1e1e6;
+  }
+  
+  
+  .metodos {
+      grid-gap: 8px;
+      gap: 8px;
+      display: grid;
+      list-style: none;
+      grid-template-columns: repeat(3,1fr);
+      
+  }
+  
+  
+  .metodo {
+      display: flex;
+      justify-content: space-between;
+      
+      
+  }
+  
+  #svgShield {
+      position: relative;
+      top: 5px;
+      right: 5px;
+      
+  }
+  
+  .compraSegura span {
+    font-size: 20px;
+      color: #fa6b05;
+  }
